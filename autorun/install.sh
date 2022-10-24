@@ -14,9 +14,9 @@ usermod -a -G ancs4linux "$USER"
 cd "$(dirname "$0")"
 
 install -m 644 ancs4linux-observer.service /usr/lib/systemd/system/ancs4linux-observer.service
-install -m 644 ancs4linux-observer.xml /etc/dbus-1/system.d/ancs4linux-observer.conf
+install -m 644 ancs4linux-observer.xml /usr/share/dbus-1/system.d/ancs4linux-observer.conf
 install -m 644 ancs4linux-advertising.service /usr/lib/systemd/system/ancs4linux-advertising.service
-install -m 644 ancs4linux-advertising.xml /etc/dbus-1/system.d/ancs4linux-advertising.conf
+install -m 644 ancs4linux-advertising.xml /usr/share/dbus-1/system.d/ancs4linux-advertising.conf
 install -m 644 ancs4linux-desktop-integration.service /usr/lib/systemd/user/ancs4linux-desktop-integration.service
 
 set +e
