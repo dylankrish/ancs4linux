@@ -40,4 +40,4 @@ pip3 uninstall ancs4linux
 # systemctl --user restart ancs4linux-desktop-integration.service
 
 
-echo "Finished."
+echo "Complete"

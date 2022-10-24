@@ -34,6 +34,8 @@ systemctl --global enable ancs4linux-desktop-integration.service
 systemctl restart ancs4linux-observer.service
 systemctl restart ancs4linux-advertising.service
 
+echo "Complete"
+
 # Run as user:
 # systemctl --user daemon-reload
 # systemctl --user restart ancs4linux-desktop-integration.service
