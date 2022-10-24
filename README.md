@@ -1,5 +1,7 @@
 # ANCS4Linux
 
+This fork is optimized for Arch Linux, and adds an uninstaller
+
 > iOS & iPadOS notification service client for GNU/Linux
 
 This project lets you receive iOS and iPadOS notifications on your Linux desktop/laptop. No jailbreak needed.
